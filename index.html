@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>$Oreo</title>
+  </head>
+  <body>
+    <img src="/SITE (3).png" usemap="image-map" />
+
+    <a href="https://t.me/oreosolanaportal" class="box" id="box1"></a>
+    <a href="#" class="box" id="box2"></a>
+    <a href="https://x.com/oreosolanacoin" class="box" id="box3"></a>
+
+    <map name="image-map">
+      <area
+        id="area1"
+        target=""
+        alt="telegram"
+        title="telegram"
+        href=""
+        coords="378,625,701,805"
+        shape="rect"
+      />
+      <area
+        id="area2"
+        target=""
+        alt="dextools"
+        title="dextools"
+        href=""
+        coords="799,691,1125,843"
+        shape="rect"
+      />
+      <area
+        id="area3"
+        target=""
+        alt="twitter"
+        title="twitter"
+        href=""
+        coords="1251,609,1505,799"
+        shape="rect"
+      />
+    </map>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
